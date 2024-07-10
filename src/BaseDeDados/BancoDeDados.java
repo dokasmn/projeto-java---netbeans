@@ -26,7 +26,6 @@ public class BancoDeDados {
         try{
             Class.forName(driver);
             conexao=DriverManager.getConnection(local,login,senha);
-            System.out.println("Banco de dados conectado");
             return true;
         } catch(ClassNotFoundException erro){
             System.out.println("Drive não encontrado"+erro.toString());

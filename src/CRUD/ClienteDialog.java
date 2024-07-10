@@ -26,6 +26,7 @@ public class ClienteDialog extends javax.swing.JDialog {
     
     BancoDeDados bd = new BancoDeDados();
     
+    
     private void cadastroCliente(){
         if(bd.getConnection()){
             try {
